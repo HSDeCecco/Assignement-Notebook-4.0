@@ -10,31 +10,62 @@ import UIKit
 
 class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    var courseOneName = ""
+    @IBOutlet weak var courseTableView: UITableView!
+    var courses: [Course] = [Course] ()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        addAlert()
+        
     }
-
+    
+    //func
+    func addAlert (){
+        
+        let alert = UIAlertController(title: "Set courses", message: "", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addTextField(configurationHandler: {textField in
+            textField.placeholder = "Add Course Name"
+        })
+        alert.addTextField(configurationHandler: {textField in
+            textField.placeholder = "Add Block/Period"
+        })
+        let okayAction = UIAlertAction(title: "Set", style: .default, handler: {action in
+            let nameTF = alert.textFields![0]
+            let blockTF = alert.textFields![1]
+            let newCourse = Course(name: nameTF.text!, block: blockTF.text!)
+            self.courses.append(newCourse)
+            self.courseTableView.reloadData()
+        })
+        let noAction = UIAlertAction(title: "Dismiss", style: .destructive, handler: {action in
+            
+        })
+        
+        
+        alert.addAction(okayAction)
+        alert.addAction(noAction)
+        present(alert, animated: true, completion: nil)
+        
+    }
     
     
-    
-    
-    
-    //table view propertys
+    //tableView propertys
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return courses.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "course", for: indexPath)
-        cell.textLabel?.text = courseOneName
+        let course = courses[indexPath.row]
+        cell.textLabel?.text = course.name
+        cell.detailTextLabel?.text = course.block
+        cell.selectionStyle = .none
         return cell
     }
     
-    
-    
+
     
     
     
 }
+    
+    
+
