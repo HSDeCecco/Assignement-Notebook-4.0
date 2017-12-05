@@ -56,14 +56,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UYk-zR-kkb">
-                                                    <rect key="frame" x="15" y="5" width="33" height="20"/>
+                                                    <rect key="frame" x="15" y="5" width="33.5" height="20.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="edj-hz-FHL">
-                                                    <rect key="frame" x="15" y="25" width="44" height="15"/>
+                                                    <rect key="frame" x="15" y="25.5" width="44" height="14.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
@@ -82,10 +82,13 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="z9U-sc-S90"/>
                     </view>
+                    <connections>
+                        <outlet property="courseTableView" destination="4ms-OA-sH1" id="0lf-fz-aX1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="crM-Zh-2VJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1141.5999999999999" y="88.605697151424295"/>
+            <point key="canvasLocation" x="1248.8" y="88.605697151424295"/>
         </scene>
         <!--Item-->
         <scene sceneID="lo6-7S-RyB">
