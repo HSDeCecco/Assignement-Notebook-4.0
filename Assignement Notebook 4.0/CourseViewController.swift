@@ -18,7 +18,10 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         addAlert()
         
     }
-    
+    func addButtonMaker () {
+        let addButton = UIBarButtonItem(image: UIImage(named: "imagename"), style: .plain, target: self, action: Selector("action"))
+        self.navigationItem.rightBarButtonItem  = addButton
+    }
     //func
     func addAlert (){
         
