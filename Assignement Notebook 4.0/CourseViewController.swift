@@ -22,7 +22,7 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     
     
-    //table view propertys
+    //table view properties
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 4
     }
