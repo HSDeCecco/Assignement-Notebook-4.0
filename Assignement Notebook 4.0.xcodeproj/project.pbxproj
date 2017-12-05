@@ -15,6 +15,7 @@
 		1A9B75741FD5A331002E05B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9B75721FD5A331002E05B2 /* LaunchScreen.storyboard */; };
 		1A9B757F1FD5A331002E05B2 /* Assignement_Notebook_4_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9B757E1FD5A331002E05B2 /* Assignement_Notebook_4_0Tests.swift */; };
 		1A9B758A1FD5A331002E05B2 /* Assignement_Notebook_4_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9B75891FD5A331002E05B2 /* Assignement_Notebook_4_0UITests.swift */; };
+		1AB513B31FD6E6B200F4E35B /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB513B21FD6E6B200F4E35B /* CourseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1A9B75851FD5A331002E05B2 /* Assignement Notebook 4.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignement Notebook 4.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A9B75891FD5A331002E05B2 /* Assignement_Notebook_4_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignement_Notebook_4_0UITests.swift; sourceTree = "<group>"; };
 		1A9B758B1FD5A331002E05B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB513B21FD6E6B200F4E35B /* CourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				1A9B75661FD5A331002E05B2 /* AppDelegate.swift */,
 				1A9B75681FD5A331002E05B2 /* ViewController.swift */,
+				1AB513B21FD6E6B200F4E35B /* CourseViewController.swift */,
 				1A9B756A1FD5A331002E05B2 /* Main.storyboard */,
 				1A9B75701FD5A331002E05B2 /* Assets.xcassets */,
 				1A9B75721FD5A331002E05B2 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A9B756F1FD5A331002E05B2 /* Assignement_Notebook_4_0.xcdatamodeld in Sources */,
+				1AB513B31FD6E6B200F4E35B /* CourseViewController.swift in Sources */,
 				1A9B75691FD5A331002E05B2 /* ViewController.swift in Sources */,
 				1A9B75671FD5A331002E05B2 /* AppDelegate.swift in Sources */,
 			);
