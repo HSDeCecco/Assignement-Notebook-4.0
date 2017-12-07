@@ -90,6 +90,66 @@
             </objects>
             <point key="canvasLocation" x="1248.8" y="88.605697151424295"/>
         </scene>
+        <!--Class1 View Controller-->
+        <scene sceneID="NI4-H1-4Dh">
+            <objects>
+                <viewController id="f1j-sr-vN3" customClass="Class1ViewController" customModule="Assignement_Notebook_4_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hul-ye-6RG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="73U-tJ-eKT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dWc-Tk-ac3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2127" y="-739"/>
+        </scene>
+        <!--Class4 View Controller-->
+        <scene sceneID="UjQ-rc-ukh">
+            <objects>
+                <viewController id="S2e-iW-L5e" customClass="Class4ViewController" customModule="Assignement_Notebook_4_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="New-wp-pGn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="KUJ-xW-Jah"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EPx-SX-sIR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2128" y="889"/>
+        </scene>
+        <!--Class3 View Controller-->
+        <scene sceneID="rMp-6o-w6T">
+            <objects>
+                <viewController id="gG8-zn-T6A" customClass="Class3ViewController" customModule="Assignement_Notebook_4_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xe4-05-kMQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="DsX-At-RPv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y67-sh-AaK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2844" y="550"/>
+        </scene>
+        <!--Class2 View Controller-->
+        <scene sceneID="NCT-4L-1GC">
+            <objects>
+                <viewController id="3Ly-dO-CZF" customClass="Class2ViewController" customModule="Assignement_Notebook_4_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2fs-63-ZZx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="2Wv-zj-eMi"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KFx-Ui-d72" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2844" y="-240"/>
+        </scene>
         <!--Item-->
         <scene sceneID="lo6-7S-RyB">
             <objects>

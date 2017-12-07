@@ -17,12 +17,12 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
         super.viewDidLoad()
         addAlert()
         
+        
     }
-    func addButtonMaker () {
-        let addButton = UIBarButtonItem(image: UIImage(named: "imagename"), style: .plain, target: self, action: Selector("action"))
-        self.navigationItem.rightBarButtonItem  = addButton
-    }
+    
     //func
+    
+    
     func addAlert (){
         
         let alert = UIAlertController(title: "Set courses", message: "", preferredStyle: UIAlertControllerStyle.alert)
@@ -38,8 +38,9 @@ class CourseViewController: UIViewController, UITableViewDelegate, UITableViewDa
             let newCourse = Course(name: nameTF.text!, block: blockTF.text!)
             self.courses.append(newCourse)
             self.courseTableView.reloadData()
+            self.addAlert()
         })
-        let noAction = UIAlertAction(title: "Dismiss", style: .destructive, handler: {action in
+        let noAction = UIAlertAction(title: "No More Classes", style: .destructive, handler: {action in
             
         })
         
